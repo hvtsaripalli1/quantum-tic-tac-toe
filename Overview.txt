@@ -1,0 +1,18 @@
+The Quantum Tic-Tac-Toe Game is a Python implementation of the classic tic-tac-toe game that incorporates quantum computing concepts. The game utilizes the Qiskit framework, which provides tools for simulating quantum circuits and executing quantum algorithms.
+The main objective of this project is to showcase how quantum computing principles can be applied to the game of tic-tac-toe. The game board is represented as a quantum state using qubits, and measurements are performed on the quantum state to determine the game outcome.
+Key Features:
+Play a tic-tac-toe game against a human opponent.
+The game board is represented as a quantum state using qubits.
+Perform measurements on the quantum state to determine game outcomes.
+Visualize the quantum state using Bloch vectors.
+Track the game history and display the final game outcome.
+The game maps each cell of the tic-tac-toe board to a specific quantum state:
+Empty cell: |0⟩
+Player X: |1⟩
+Player O: |+⟩
+Players take turns entering their moves, and the game board is updated accordingly. Measurements are performed on the quantum state to determine if a player has won or if the game ends in a draw. The game history is tracked, and the final outcome is displayed.
+Installation instructions are provided to clone the repository, navigate to the project directory, and install the necessary dependencies using pip.
+The usage section explains how to run the game by executing the main Python script. Players input their moves by specifying the position on the game board where they want to place their symbol (0-8). The game board is displayed after each move, and the game continues until one of the players wins or the game ends in a draw. The final game outcome is then displayed.
+Acknowledgments are given to the Qiskit documentation and the tic-tac-toe game logic.
+Contact information is provided for inquiries or questions related to the project.
+Please note that this is just an overview, and you can further customize and expand it based on your project's specific details and requirements.
